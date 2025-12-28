@@ -23,8 +23,7 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
-  ```                               
-                              
+```
   <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,17 +34,17 @@ Publish the website in the given URL.
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
-      background-color: #0b0d17; /* Deep space dark */
+      background-color: #0b0d17;
       color: #e0e0e0;
     }
 
-    header {
+  header {
       padding: 40px 20px;
       text-align: center;
       background: linear-gradient(to bottom, #1a1c2c, #0b0d17);
     }
 
-    h1 {
+  h1 {
       margin: 0;
       font-family: 'Orbitron', sans-serif; /* A space-like font feel */
       text-transform: uppercase;
@@ -57,14 +56,14 @@ Publish the website in the given URL.
       border-radius: 4px;
     }
 
-    h2 {
+  h2 {
       font-size: 1rem;
       font-weight: 300;
       color: #7209b7;
       margin-top: 10px;
     }
 
-    .gallery-container {
+  .gallery-container {
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -74,7 +73,7 @@ Publish the website in the given URL.
       margin: 0 auto;
     }
 
-    .gallery-item {
+  .gallery-item {
       width: 280px;
       height: 200px;
       overflow: hidden;
@@ -85,24 +84,23 @@ Publish the website in the given URL.
       transition: all 0.3s ease;
     }
 
-    .gallery-item img {
+  .gallery-item img {
       width: 100%;
       height: 100%;
       object-fit: cover;
       transition: transform 0.5s ease;
     }
 
-    .gallery-item:hover {
+  .gallery-item:hover {
       border-color: #4cc9f0;
       box-shadow: 0 0 20px rgba(76, 201, 240, 0.4);
     }
 
-    .gallery-item:hover img {
+  .gallery-item:hover img {
       transform: scale(1.1);
     }
 
-    /* Lightbox Styles */
-    .lightbox {
+  .lightbox {
       position: fixed;
       top: 0;
       left: 0;
@@ -115,14 +113,14 @@ Publish the website in the given URL.
       z-index: 1000;
     }
 
-    .lightbox-image {
+  .lightbox-image {
       max-width: 85%;
       max-height: 85%;
       border-radius: 4px;
       box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
     }
 
-    .close {
+  .close {
       position: absolute;
       top: 30px;
       right: 40px;
@@ -132,11 +130,11 @@ Publish the website in the given URL.
       line-height: 1;
     }
 
-    .close:hover {
+  .close:hover {
       color: #4cc9f0;
     }
 
-    footer {
+  footer {
       text-align: center;
       padding: 40px;
       font-size: 0.9rem;
@@ -165,7 +163,7 @@ Publish the website in the given URL.
     </div>
     <div class="gallery-item">
     
-    </div>
+  </div>
     <div class="gallery-item">
       <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=500" alt="Deep Space">
     </div>
@@ -211,8 +209,8 @@ Publish the website in the given URL.
     });
   </script>
 </body>
-</html>```
-
+</html>
+```
 
 # OUTPUT:
 <img width="1280" height="707" alt="image" src="https://github.com/user-attachments/assets/2663c15e-70c3-4b07-866e-1aab34281f6f" />
